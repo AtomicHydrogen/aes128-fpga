@@ -1,0 +1,76 @@
+============================================================
+NIST FIPS-197 Test Vector
+============================================================
+Key:       2b7e151628aed2a6abf7158809cf4f3c
+Plaintext: 3243f6a8885a308d313198a2e0370734
+Expected:  3925841d02dc09fbdc118597196a0b32
+Got:       3925841d02dc09fbdc118597196a0b32
+Cycles:    152
+RESULT: PASS
+
+============================================================
+Random Test Vectors (100 iterations)
+============================================================
+Test 10: PASS (152 cycles)
+Test 20: PASS (152 cycles)
+Test 30: PASS (152 cycles)
+Test 40: PASS (152 cycles)
+Test 50: PASS (152 cycles)
+Test 60: PASS (152 cycles)
+Test 70: PASS (152 cycles)
+Test 80: PASS (152 cycles)
+Test 90: PASS (152 cycles)
+Test 100: PASS (152 cycles)
+
+Random Test Results:
+----------------------------------------
+  passed: 100
+  failed: 0
+  total: 100
+  pass_rate: 100.000
+  min_cycles: 152
+  max_cycles: 152
+  avg_cycles: 152.000
+
+============================================================
+Throughput Test (5.0s duration)
+============================================================
+
+Throughput Results:
+----------------------------------------
+  blocks: 313
+  elapsed_sec: 5.007
+  blocks_per_sec: 62.514
+  bytes_per_sec: 1000.224
+  kbps: 8.002
+  avg_cycles: 152.000
+
+Hardware timing (at 125.0 MHz):
+  Time per block: 1.216 us
+  Theoretical throughput: 13.158 MB/s
+
+============================================================
+Latency Test (1000 samples)
+============================================================
+
+Latency Results:
+----------------------------------------
+  samples: 1000
+  min_latency_ms: 14.697
+  max_latency_ms: 26.992
+  avg_latency_ms: 16.006
+  median_latency_ms: 15.991
+  p95_latency_ms: 16.116
+  p99_latency_ms: 16.369
+  min_hw_cycles: 152
+  max_hw_cycles: 152
+  avg_hw_cycles: 152.000
+
+Overhead analysis:
+  HW execution time: 0.001216 ms
+  UART overhead: 16.005 ms
+  Overhead %: 100.0%
+
+============================================================
+ALL TESTS PASSED
+============================================================

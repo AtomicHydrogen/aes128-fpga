@@ -1,0 +1,9 @@
+*
+
+!/src
+!/src/**
+
+!/aes-eval
+!/aes-eval/**
+
+!/.gitignore
