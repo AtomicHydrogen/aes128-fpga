@@ -30,6 +30,8 @@ The included benchmarking utility communicates through the **MicroBlaze UART**, 
    - **GPO1:** Enabled (1-bit, used for LED indication)
 3. Ensure the design is clocked at **125 MHz**.  
    The AES core block was generated using the **Vivado IP Packager**.
+4. Export the .xsa to Vitis and generate a .elf -> Associate with MicroBlaze MCS and Generate Bitstream.
+5. For the CMOD A7, the Micro-USB Port can be used directly as long as the device is not being programmed.
 
 ---
 
