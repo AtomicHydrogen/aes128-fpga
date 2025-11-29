@@ -1,4 +1,4 @@
-# Hardware Implementation of an AES-128 Encryption Scheme on a CMOD-A7
+# AES-128 FPGA Implementation
 
 This repository contains a hardware implementation of an **AES-128 encryption engine** targeting the **CMOD-A7 FPGA** platform.
 
