@@ -6,4 +6,7 @@
 !/aes-eval
 !/aes-eval/**
 
+!/bd/
+!/bd/**
+
 !/.gitignore
